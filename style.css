@@ -1,0 +1,593 @@
+/* 
+=======Content============
+*== Root storage
+*== General Styling 
+*== Nav Styling
+*== First Section Styling
+*== Second Section Styling
+*== Third Section Styling
+*== Fourth Section Styling
+*== Fifth Section Styling
+*== Testimonial Section Styling
+*== Footer Section Styling
+*/
+
+:root{
+    --white:#ffff;
+    --primary-blue:#2395d2;
+    --secondary-blue:rgba(35, 149, 210, 0.128);
+    --bg-blue:#F0FAFF;
+    --bg-white:#F4F4F4;
+    --black:black;
+    --hover-blue:#18a0e9;
+    --big-radius:4rem;
+    --small-radius:1rem;
+    --shadow:0px 11px 5px 0px rgba(0, 0, 0, 0.199);
+
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+    /* background-color: var(--white); */
+}
+.nav-hero{
+    background-color: var(--black);
+}
+.nav-section{
+    width: 100%;
+    max-height: 15%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    margin-top: -4rem;
+    z-index: 1;
+    padding: 14px, 70px, 14px, 70px;
+    gap: 10px;
+    padding: 0.5rem 1rem;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.9rem 0.5rem;
+    width: 50%;
+    gap: 44px;
+    margin-left: -9rem;
+}
+.logo{
+    padding: 0.2rem;
+    padding-right: 15rem;
+    margin-left: 3rem;
+    margin-right: -20rem;
+}
+nav>a{
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+nav>a:hover{
+    color: var(--primary-blue);
+}
+a{
+    color: white;
+    text-decoration: none;
+   
+}
+.nav-btn{
+    color: white;
+    padding: 0.9rem;
+    padding-left: 16px;
+    width: 12%;
+    height: 8%;
+    margin-right: 3rem;
+    margin-top: 5px;
+    border-radius: var(--small-radius);
+    background-color: var(--primary-blue);
+
+}
+.nav-btn:hover{
+    background-color: var(--hover-blue);
+    transition: 0.5s;
+    border-radius: 15px 15px 15px 0px;
+}
+
+
+/* ================= First Section Styling ================= */
+
+.display-one{
+    display: flex;
+    margin-top: 4rem;
+   height: 145vh;
+    background-color: var(--bg-blue);
+    width: 100%;
+}
+.display-one>.text-box{
+    padding: 3rem;
+    width: 50%;
+    margin-top: 8rem;
+    margin-left: 0rem;
+    background-color: var(--bg-blue);
+}
+.display-one>.text-box>h1{
+    color: var(--primary-blue);
+    font-size: 65px;
+    font-weight:604;
+}
+.text-box>h1>span{
+    color: var(--black);
+}
+.text-box>p{
+    margin-top: 2rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+.section-one-btn{
+    color: white;
+    padding-top: 15px;
+    padding-left: 30px;
+    font-size: 20px;
+    width: 35%;
+    height: 10%;
+    margin-right: 20px;
+    margin-top: 4rem;
+    border-radius: var(--small-radius);
+    background-color: var(--primary-blue);
+    box-shadow: var(--shadow);
+}
+.section-one-btn:hover{
+    transition: 0.5s;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 19px;
+    padding-left: 40px;
+    border-radius:30px 30px 0px 30px;
+}
+
+.display-one>.img-set{
+    margin-top: 4rem;
+   
+}
+ /* ============================== Section two Styling ==================================== */
+
+ .section-two{
+    margin-top: 4rem;
+    background-color: #F3F2F2;
+    Padding :62px, 100px, 62px, 100px;
+    Gap:24px;
+    width: 100%;
+}
+.section-two>.text-box{
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+    line-height: 34px;
+
+}
+.section-two-header{
+    padding-bottom: 2rem;
+}
+
+/* ================= Section three styling [About US] ====================== */
+
+.section-three {
+    overflow: hidden; 
+    padding-top: 5rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+    height: 60%;
+    margin-left: 3rem;
+}
+
+.section-three>.text-box>img {
+    float: left; 
+    margin-left: 4rem; 
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    height: 20%;
+}
+.section-three>.section-three-img2,.section-three-img-3{
+    margin-left: 4rem;
+}
+.section-three img{
+    width: 30%;
+    height: 20%;
+}
+.section-three-img2{
+    margin-top: -5rem;
+}
+.section-three-img3{
+    margin-right: 11rem;
+    margin-left: 4.5rem;
+    float:right;
+    width: 50%;
+    margin-top: -21.5rem;
+}
+.section-three img{
+    width: 40%;
+}
+.section-three .text-box {
+    overflow: hidden; 
+}
+
+.section-three .text-box > h1{
+    margin-left: 38.5rem;
+    margin-bottom:-3rem ;
+    font-weight:600;
+}
+.section-three .text-box >p{
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    margin-right:4rem;
+    font-size: 20px;
+    line-height: -1px;
+    
+}
+
+
+/* ============Section Four styling ============== */
+.section-four{
+    background-color: var(--black);
+    color: var(--white);
+    top: 3108px;
+    left: -43px;
+    padding: 24px 80px;
+}
+.section-four>h1,h2{
+    color: var(--white);
+    padding: 44px;
+}
+.section-four>h1{
+    text-align: center;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 57px;
+}
+.section-four>h2{
+    text-align: center;
+    font-weight:300;
+    font-size: 38px;
+    line-height: 57px;
+    color: var(--white);
+    margin-top: -5rem;
+}
+.set-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 65px;
+    margin-top:2.5rem ;
+    margin-bottom:2.5rem ;
+    /* margin-left: -2rem; */
+    width: 90%;
+
+}
+.blocks{
+    flex: 0px 0 calc(33.33% - 20px);
+    width: calc(30% - 8px);
+    box-sizing: border-box;
+    /* height: 327px; */
+    padding: 1rem 5px;
+
+}
+.blocks img{
+    margin-left: 7rem;
+    gap: 10px;
+    padding: 18px;
+    
+}
+.blocks .img-title{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+.blocks>.blocks-content{
+    font-weight: 300;
+    color: var(--white);
+    line-height: 30px;
+    text-align: center;
+    width: 157%;
+    height: 120px;
+    word-wrap: break-word;
+    margin-left: -4rem;
+    margin-top: -2rem;
+    /* width: 100%;   */
+}
+.blocks>.blocks-content> h2{
+    font-size: 20px;
+    font-weight: 300;
+}
+.blocks>.blocks-content> h2:hover{
+    color: var(--primary-blue);
+    line-height: 35px;
+}
+/* ======================== Section Five styling starts here ===================== */
+.section-five{
+    margin-top:8rem;
+    background-color: var(--bg-white);
+    width: 100%;
+    height: 100%; 
+    box-shadow: 0px 35px 77px rgba(79, 79, 79, 0.10);
+    justify-content: center; 
+    align-items: center; 
+    gap: 24px; display: inline-flex;
+}
+.section-five-details{
+    justify-content: center; align-items: center; gap: 10px; display: flex
+}
+.section-five>.section-five-details>.section-five-set>.text-box{
+    flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 44px; display: inline-flex
+}
+.section-five-set{
+    padding-left: 58px; padding-right: 58px; padding-top: 44px; padding-bottom: 44px; background: #EEF9FF; border-radius: 20px; overflow: hidden; justify-content: center; align-items: center; gap: 44px; display: flex
+}
+.text-set{
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 44px; 
+    display: flex;
+}
+.text-set>h1{
+    color: var(--black);
+    font-size: 38px; 
+    font-weight: 600; 
+    word-wrap: break-word
+}
+.section-set{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.set{
+    width: calc(50% - 10px);
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-bottom: 5rem;
+    /* text-align: center; */
+}
+.set img{
+    max-width: 100%;
+    padding-right: 1rem;
+}
+.set .set-title{
+    color: var(--primary-blue);
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 1rem;
+}
+.set .set-text{
+    font-size: 20px;
+    font-weight:500;
+    margin-top: 2rem;
+    word-wrap: break-word;
+}
+.section-five-image{
+    margin-left:0rem;
+    margin-right: 2rem;
+    width: 624px; height: 677px
+}
+.set>img{
+    float: left;
+}
+
+/* =============== Testimonial Styling ============= */
+.testimonial-section{
+    background-color: var(--bg-white);
+    padding-top: 7rem;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 44px;
+    display: inline-flex;
+}
+.header-text{
+    color: var(--black);
+    padding-left: 44px;
+    padding-right: 44px;
+    background-color: var(--bg-white);
+    border-radius: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.testimonial-section h1{
+    font-size: 38px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+.testimonial-section h2{
+    font-size: 38px;
+    font-weight: 300;
+    word-wrap:break-word;
+    color: var(--black);
+}
+/* .img-blocks{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+} */
+.img-blocks{
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+    display: inline-flex;
+}
+.img-blocks>.img-set{
+    /* border: 1px solid rgba(0, 0, 0, 0.273);
+    width: 28%;
+    height: 20%;
+    padding: 3rem;
+    border-radius: var(--small-radius);
+    background-color: var(--white);
+    margin-left:3rem;
+    margin-right:3rem; */
+    padding: 24px;
+    background-color: var(--white);
+    box-shadow:0px 51px 112px rgba(128,128,128,0.10) ;
+    border-radius: 20px;
+    overflow: hidden;
+    border:1px #ECDFDF solid ;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: flex;
+}
+.block-content{
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    display: inline-flex
+}
+.block-content>p{
+    width: 295px; 
+    text-align: center;
+    color: #444444;
+    font-size: 20px;
+    font-weight: 300;
+    word-wrap: break-word
+}
+.img-details{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    display: flex;
+}
+.img-set .name,.location{
+    text-align: center;
+    font-weight: 300;
+    word-wrap: break-word;
+    width: 119px;
+}
+.img-set .name{
+    font-size: 24px;
+}
+.img-set .location{
+    font-size: 16px;
+}
+.arrows{
+    display: flex;
+    margin-left: 0rem;
+}
+.arrow{
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+/* ============== styling for Section six =========== */
+.section-six{
+    display: flex;
+    width: 100%;
+    padding: 4rem;
+}
+.setup{
+    background-color: var(--primary-blue);
+    color: var(--white);
+    width: 100%; 
+    height: 100%; 
+    padding: 24px; 
+    background: #2395D2; 
+    border-radius: 40px; 
+    overflow: hidden; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex
+}
+.setup>.setup-text>h2{
+    font-size: 40px;
+    word-wrap:break-word;
+    font-weight: 600;
+    width: 50%;
+}
+.setup-img{
+    position: absolute;
+    margin-left: 55%;
+    margin-top:-1px ;
+}
+.section-six-btn{
+    background-color: var(--black);
+    color: var(--white);
+    font-weight: 600;
+    width: 15%;
+    padding: 15px 0px;
+    text-align: center;
+    border-radius: var(--small-radius);
+    transition: 0.2s;
+    border-radius: 15px 15px 15px 0px;
+}
+.section-six-btn:hover{
+    border-radius: 15px 15px 0px 15px;
+    color: var(--secondary-blue);
+    font-weight: 700;
+}
+.btn-arrow{
+    margin-bottom: -3px;
+    margin-left: 3px;
+}
+.happy-client{
+    margin-left: 15rem;
+    margin-top: -5rem;
+    background:var(--white);
+    width: max-content;
+    border-radius: var(--small-radius);
+    cursor: pointer;
+}
+.happy-clients{
+    padding: 5px 10px;
+}
+
+/* =======Footer Styling ================ */
+
+footer{
+    background-color: var(--black);
+    color: var(--white);
+}
+.footer-slide{
+    display: flex;
+    padding: 7rem 3rem;
+}
+.slide-one-text{
+    margin-top: 2rem;
+    font-weight: 300;
+}
+.slide-two,.slide-three{
+    margin-left:16rem;
+}
+.slide-two-header>p{
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.email-head{
+    font-weight: 600;
+    margin-top: 2rem;
+}
+footer a:hover{
+ color: var(--primary-blue);
+}
+.footer-text{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+hr{
+    width: 95%;
+    margin-left:2rem;
+}
