@@ -8,16 +8,17 @@
 <link rel="icon" href="/images/gym.png">
 <link rel="stylesheet" href="./style.css">
 <body>
-    <div class="nav-hero">
+   
+    <div class="nav-hero" style="margin-top: 4rem;">
         <div class="nav-section">
      
      <div class="logo">
-         <img src="/images/vhyee 1.png" alt="">
+         <img src="images/vhyee 1.png" alt="">
      </div>
      <nav>
          <a href="index.html">Home</a>
-        <a href="#aboutUs">About Us</a>
-        <a href="#services">Services</a>
+        <a href="index.html#aboutUs">About Us</a>
+        <a href="index.html#services">Services</a>
         <a href="contact.html">Contact Us</a>
      </nav>
      <div class="nav-btn">
@@ -27,6 +28,31 @@
      </div>
  </div>  
      </div>
-    <h1 class="text-xs">Welcome to contact page</h1>
+
+     <div class="hero-section">
+            <form action="#" method="get">
+                <div class="input-box">
+                <label for="name">Full Name</label>
+                <input type="text" for="name" placeholder="eg.Kate James John" required autofocus >
+                
+                <label for="email">Email</label>
+                <input type="email" for="email" placeholder="eg.example@gmail.com" required>
+               
+                <label for="phone">Phone</label>
+                <input type="phone" for="phone" placeholder="eg.123-678-9802">
+                 
+                <label for="message">Message</label>
+                <textarea name="message" id="msg" cols="30" rows="10"></textarea>
+
+                <div class="contact-btn" >
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+         </div>
+         <div class="map-section">
+
+         </div>
+     </div>
+
 </body>
 </html>
